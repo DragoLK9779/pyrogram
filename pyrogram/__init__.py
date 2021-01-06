@@ -35,7 +35,7 @@ class ContinuePropagation(StopAsyncIteration):
 
 import asyncio
 
-from . import raw, types, filters, handlers, emoji
+from . import raw, types, handlers, emoji
 from .client import Client
 from .sync import idle
 
